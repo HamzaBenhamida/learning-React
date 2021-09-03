@@ -99,7 +99,7 @@ function makeDoggy(e) {
 }
 
 const kitty = (
-	<img onClick= {makeDoggy};
+	<img onClick= {makeDoggy}
 		src="https://content.codecademy.com/courses/React/react_photo-kitty.jpg" 
 		alt="kitty" />
 );
@@ -151,7 +151,7 @@ ReactDOM.render(
 JSX Conditionals: The Ternary Operator
 ...
 */
-unction coinToss () {
+function coinToss () {
 	// Randomly return either 'heads' or 'tails'.
 	return Math.random() < 0.5 ? 'heads' : 'tails';
       }
