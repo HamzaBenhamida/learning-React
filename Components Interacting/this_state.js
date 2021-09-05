@@ -75,3 +75,6 @@ class Toggle extends React.Component {
 
 ReactDOM.render(<Toggle/>, document.getElementById('app'));
 
+/*
+this.setState Automatically Calls render
+*/
